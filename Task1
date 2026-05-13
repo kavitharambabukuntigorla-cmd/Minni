@@ -11,15 +11,6 @@
       ]
     },
     {
-      "cell_type": "markdown",
-      "metadata": {
-        "id": "Wf5KrEb6vrkR"
-      },
-      "source": [
-        "# Welcome to Colab!"
-      ]
-    },
-    {
       "cell_type": "code",
       "source": [
         "\n",
@@ -48,7 +39,7 @@
         "# Loading Iris Dataset\n",
         "iris = load_iris()\n",
         "\n",
-        "# Create DataFrame\n",
+        "# Create Data Frame\n",
         "df = pd.DataFrame(data=iris.data, columns=iris.feature_names)\n",
         "\n",
         "# Add Target Column\n",
@@ -138,14 +129,14 @@
         "# ============================================"
       ],
       "metadata": {
-        "id": "DwTCSLPO1eGW",
-        "outputId": "c2103e7f-fda2-4df0-d7fa-e87691738697",
+        "id": "tVDQb-nU9IZw",
+        "outputId": "a34aaaaf-a2a4-447b-8c74-b6a84e08b734",
         "colab": {
           "base_uri": "https://localhost:8080/",
           "height": 871
         }
       },
-      "execution_count": 3,
+      "execution_count": 4,
       "outputs": [
         {
           "output_type": "stream",
